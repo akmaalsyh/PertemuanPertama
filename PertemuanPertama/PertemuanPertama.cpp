@@ -16,11 +16,13 @@ int main()
     float nAlas, nTinggi, nLuas;
     cout << "Masukkan Alas =";
     cin >> nAlas;
-    cout << "Masukkan Tinngi  = ";
+    cout << "Masukkan Tinggi  = ";
     cin >> nTinggi;
     nLuas = nAlas * nTinggi / 2;
     cout << "Luasnya = " << nLuas;
 }
+
+float panjang, lebar, luas;
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
